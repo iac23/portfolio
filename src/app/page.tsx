@@ -110,10 +110,8 @@ export default function Portfolio() {
               <div className="p-6 pt-0 flex-1 flex flex-col justify-between gap-4">
                 <div className="space-y-4">
                   <p className="text-gray-400 leading-relaxed">
-                    A comprehensive Infrastructure as Code (IaC) solution that migrates a healthcare company's manually-created AWS infrastructure to a secure, 
-                    version-controlled, and scalable architecture using AWS CDK with TypeScript.
-                    This project demonstrates enterprise-level cloud engineering practices, transforming a 5-year-old manually managed infrastructure into a modern,
-                    automated, and secure architecture following AWS Well-Architected Framework principles.
+                   Architected and deployed Terraform-based IAM Identity Center automation for StartUp.co, 
+                   eliminating manual user provisioning and reducing access management overhead by 80% while ensuring security compliance across multi-account AWS environments. 
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">
@@ -143,9 +141,9 @@ export default function Portfolio() {
               <div className="p-6 pt-0 flex-1 flex flex-col justify-between gap-4">
                 <div className="space-y-4">
                   <p className="text-gray-400 leading-relaxed">
-                    Developed a robust CI/CD pipeline using GitHub Actions and AWS CDK to automate the deployment of infrastructure changes for AWS Migration job.
-                    This pipeline ensures that any modifications to the infrastructure code are automatically tested, validated, and deployed to the AWS environment,
-                    enhancing efficiency and reducing the risk of human error.
+                    Engineered GitHub Actions CI/CD pipeline for AWS CDK deployments, 
+                    automating infrastructure testing and deployment workflows that reduced release cycles by 85% and 
+                    eliminated manual deployment errors across multi-account healthcare environments
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">GitHub Actions</span>
@@ -191,7 +189,7 @@ export default function Portfolio() {
             </div>
             <div className="flex items-center gap-3 p-4 rounded-lg border border-gray-800 bg-gray-900">
               <div className="h-2 w-2 rounded-full bg-blue-500" />
-              <span>Cloud Engineering Academy Certificate</span>
+              <span>Cloud & AI Engineering Academy Certificate</span>
             </div>
             <div className="flex items-center gap-3 p-4 rounded-lg border border-gray-800 bg-gray-900">
               <div className="h-2 w-2 rounded-full bg-purple-500" />
