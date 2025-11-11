@@ -91,7 +91,9 @@ export default function Portfolio() {
                   </div>
                 </div>
                 <a
-                  href="#"
+                  href="https://github.com/iac23/IAM-Solutions"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 w-full px-4 py-2 bg-transparent hover:bg-gray-800 border border-gray-700 rounded-lg font-medium transition-colors"
                 >
                   <ExternalLink className="h-4 w-4" />
@@ -122,7 +124,9 @@ export default function Portfolio() {
                   </div>
                 </div>
                 <a
-                  href="#"
+                  href="https://github.com/iac23/AWS-Migration"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 w-full px-4 py-2 bg-transparent hover:bg-gray-800 border border-gray-700 rounded-lg font-medium transition-colors"
                 >
                   <ExternalLink className="h-4 w-4" />
@@ -145,15 +149,17 @@ export default function Portfolio() {
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">GitHub Actions</span>
-                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">AWS CDK</span>
-                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md"></span>
+                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">AWS CDK with Typescript</span>
+                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">AWS CLI</span>
                     <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">
                       Documentation
                     </span>
                   </div>
                 </div>
                 <a
-                  href="#"
+                  href="https://github.com/iac23/AWS-Migration/blob/main/.github/workflows/deploy.yaml"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 w-full px-4 py-2 bg-transparent hover:bg-gray-800 border border-gray-700 rounded-lg font-medium transition-colors"
                 >
                   <ExternalLink className="h-4 w-4" />
