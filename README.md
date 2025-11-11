@@ -73,13 +73,16 @@ Developer → GitHub → AWS Amplify → CloudFront CDN → Users
 ## Project Structure
 
 ```
-portfolio/
-├── portfolio-infrastructure/    # CDK infrastructure code
-│   ├── bin/                    # CDK app entry point
-│   ├── lib/                    # Stack definitions
-│   └── cdk.json                # CDK configuration
-└── [Next.js application files]
+portfolio-project/              # Root directory (not shared)
+├── portfolio/                  # Frontend code (this repository)
+│   └── [Next.js application files]
+└── portfolio-infrastructure/   # CDK infrastructure code (private)
+    ├── bin/                    # CDK app entry point
+    ├── lib/                    # Stack definitions
+    └── cdk.json                # CDK configuration
 ```
+
+**Note**: This repository contains only the frontend Next.js application. The infrastructure code (AWS CDK) is maintained separately for security purposes.
 
 ## Deployment Process
 
@@ -138,3 +141,7 @@ The automated workflow handles:
 
 - **LinkedIn**: [in/dehan-bekker](https://linkedin.com/in/dehan-bekker)
 - **GitHub**: [github.com/iac23](https://github.com/iac23)
+
+---
+
+*This project demonstrates production-ready cloud engineering practices, combining modern web development with enterprise infrastructure management.*
