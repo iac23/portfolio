@@ -30,7 +30,7 @@ export default function Portfolio() {
               GitHub
             </a>
             <a
-              href="/Dehan_Bekker_Resume.pdf"
+              href="/Dehan_Bekker_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-transparent hover:bg-gray-800 text-white border border-gray-700 rounded-lg font-medium transition-colors"
