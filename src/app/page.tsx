@@ -72,20 +72,20 @@ export default function Portfolio() {
             {/* Project 1 */}
             <div className="flex flex-col bg-gray-900 border border-gray-800 rounded-lg overflow-hidden animate-scale-in delay-100">
               <div className="p-6 space-y-2">
-                <h3 className="text-xl font-semibold">Serverless Video Platform</h3>
+                <h3 className="text-xl font-semibold">IAM Solutions</h3>
               </div>
               <div className="p-6 pt-0 flex-1 flex flex-col justify-between gap-4">
                 <div className="space-y-4">
                   <p className="text-gray-400 leading-relaxed">
-                    Built a customer-focused serverless application using Lambda, S3, API Gateway, and MediaConvert
-                    enabling users to upload, process, and access videos with quick onboarding for non-technical users
+                    I built a complete Infrastructure as Code (IaC) solution to manage users, groups, and permissions in AWS IAM Identity Center (formerly AWS SSO) using Terraform. 
+                    My goal was to create a scalable, secure, and fully automated system for a growing company, StartUp.co, so we could move away from manual configurations in the AWS console for good.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">AWS Lambda</span>
-                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">S3</span>
-                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">API Gateway</span>
+                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">AWS IAM</span>
+                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">Terraform</span>
+                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">AWS CLI</span>
                     <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">
-                      MediaConvert
+                      GitHub
                     </span>
                     <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">IAM</span>
                   </div>
@@ -103,20 +103,22 @@ export default function Portfolio() {
             {/* Project 2 */}
             <div className="flex flex-col bg-gray-900 border border-gray-800 rounded-lg overflow-hidden animate-scale-in delay-200">
               <div className="p-6 space-y-2">
-                <h3 className="text-xl font-semibold">CI/CD Deployment Pipeline</h3>
+                <h3 className="text-xl font-semibold">AWS-Migration</h3>
               </div>
               <div className="p-6 pt-0 flex-1 flex flex-col justify-between gap-4">
                 <div className="space-y-4">
                   <p className="text-gray-400 leading-relaxed">
-                    Automated deployment workflows for web applications using GitHub Actions and S3, reducing manual
-                    errors and decreasing rollout time from 20 minutes to under 30 seconds
+                    A comprehensive Infrastructure as Code (IaC) solution that migrates a healthcare company's manually-created AWS infrastructure to a secure, 
+                    version-controlled, and scalable architecture using AWS CDK with TypeScript.
+                    This project demonstrates enterprise-level cloud engineering practices, transforming a 5-year-old manually managed infrastructure into a modern,
+                    automated, and secure architecture following AWS Well-Architected Framework principles.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">
-                      GitHub Actions
+                      AWS CDK with Typescript
                     </span>
-                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">S3</span>
-                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">CI/CD</span>
+                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">Node.js</span>
+                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">AWS CLI</span>
                   </div>
                 </div>
                 <a
@@ -132,18 +134,19 @@ export default function Portfolio() {
             {/* Project 3 */}
             <div className="flex flex-col bg-gray-900 border border-gray-800 rounded-lg overflow-hidden animate-scale-in delay-300">
               <div className="p-6 space-y-2">
-                <h3 className="text-xl font-semibold">FileVault: Cloud Storage Platform</h3>
+                <h3 className="text-xl font-semibold">CI/CD Pipeline to deploy infrastructure changes</h3>
               </div>
               <div className="p-6 pt-0 flex-1 flex flex-col justify-between gap-4">
                 <div className="space-y-4">
                   <p className="text-gray-400 leading-relaxed">
-                    Designed a secure, encrypted S3-based storage platform with least-privilege IAM access for small
-                    businesses, complete with comprehensive documentation for onboarding and troubleshooting
+                    Developed a robust CI/CD pipeline using GitHub Actions and AWS CDK to automate the deployment of infrastructure changes for AWS Migration job.
+                    This pipeline ensures that any modifications to the infrastructure code are automatically tested, validated, and deployed to the AWS environment,
+                    enhancing efficiency and reducing the risk of human error.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">AWS S3</span>
-                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">IAM</span>
-                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">Encryption</span>
+                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">GitHub Actions</span>
+                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">AWS CDK</span>
+                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md"></span>
                     <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">
                       Documentation
                     </span>
@@ -186,7 +189,7 @@ export default function Portfolio() {
             </div>
             <div className="flex items-center gap-3 p-4 rounded-lg border border-gray-800 bg-gray-900">
               <div className="h-2 w-2 rounded-full bg-purple-500" />
-              <span>Currently pursuing: AWS Certified Security – Specialty</span>
+              <span>Currently pursuing: AWS Machine Learning Engineer – Associate</span>
             </div>
           </div>
         </div>
