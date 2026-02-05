@@ -30,7 +30,7 @@ export default function Portfolio() {
               GitHub
             </a>
             <a
-              href="/Dehan_Bekker.Resume.pdf"
+              href="/Dehan_Bekker.Cloud_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-transparent hover:bg-gray-800 text-white border border-gray-700 rounded-lg font-medium transition-colors"
@@ -194,7 +194,7 @@ export default function Portfolio() {
             </div>
             <div className="flex items-center gap-3 p-4 rounded-lg border border-gray-800 bg-gray-900">
               <div className="h-2 w-2 rounded-full bg-purple-500" />
-              <span>Currently pursuing: AWS Machine Learning Engineer – Associate</span>
+              <span>AWS Machine Learning Engineer – Associate</span>
             </div>
           </div>
         </div>
