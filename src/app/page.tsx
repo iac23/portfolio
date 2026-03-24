@@ -7,7 +7,7 @@ export default function Portfolio() {
       <section className="container mx-auto px-4 py-20 md:py-32 max-w-5xl">
         <div className="flex flex-col items-center text-center space-y-8">
           <img
-            src="/professional-cloud-engineer-portrait.jpg"
+            src="portfolio/public/Headshot-2026.jpg"
             alt="Dehan Bekker"
             className="h-48 w-48 rounded-full object-cover border-4 border-blue-500/20 animate-scale-in"
           />
