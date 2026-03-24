@@ -228,6 +228,10 @@ export default function Portfolio() {
               <div className="h-2 w-2 rounded-full bg-purple-500" />
               <span>AWS Machine Learning Engineer – Associate</span>
             </div>
+            <div className="flex items-center gap-3 p-4 rounded-lg border border-gray-800 bg-gray-900">
+              <div className="h-2 w-2 rounded-full bg-amber-500" />
+              <span>Currently studying for AWS Security Specialty</span>
+            </div>
           </div>
         </div>
       </section>
