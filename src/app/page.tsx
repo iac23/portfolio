@@ -7,7 +7,7 @@ export default function Portfolio() {
       <section className="container mx-auto px-4 py-20 md:py-32 max-w-5xl">
         <div className="flex flex-col items-center text-center space-y-8">
           <img
-            src="portfolio/public/Headshot-2026.jpg"
+            src="/Headshot-2026.jpg"
             alt="Dehan Bekker"
             className="h-48 w-48 rounded-full object-cover border-4 border-blue-500/20 animate-scale-in"
           />
@@ -142,8 +142,8 @@ export default function Portfolio() {
               <div className="p-6 pt-0 flex-1 flex flex-col justify-between gap-4">
                 <div className="space-y-4">
                   <p className="text-gray-400 leading-relaxed">
-                    Engineered GitHub Actions CI/CD pipeline for AWS CDK deployments, 
-                    automating infrastructure testing and deployment workflows that reduced release cycles by 85% and 
+                    Engineered GitHub Actions CI/CD pipeline for AWS CDK deployments,
+                    automating infrastructure testing and deployment workflows that reduced release cycles by 85% and
                     eliminated manual deployment errors across multi-account healthcare environments
                   </p>
                   <div className="flex flex-wrap gap-2">
@@ -157,6 +157,38 @@ export default function Portfolio() {
                 </div>
                 <a
                   href="https://github.com/iac23/AWS-Migration/blob/main/.github/workflows/deploy.yaml"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 w-full px-4 py-2 bg-transparent hover:bg-gray-800 border border-gray-700 rounded-lg font-medium transition-colors"
+                >
+                  <ExternalLink className="h-4 w-4" />
+                  View Repository
+                </a>
+              </div>
+            </div>
+
+            {/* Project 4 */}
+            <div className="flex flex-col bg-gray-900 border border-gray-800 rounded-lg overflow-hidden animate-scale-in delay-400">
+              <div className="p-6 space-y-2">
+                <h3 className="text-xl font-semibold">TravelEase Serverless Contact Form</h3>
+              </div>
+              <div className="p-6 pt-0 flex-1 flex flex-col justify-between gap-4">
+                <div className="space-y-4">
+                  <p className="text-gray-400 leading-relaxed">
+                    Built a production-ready serverless contact form on AWS that captures travel inquiries,
+                    generates AI-powered insights using Claude API, and delivers automated email confirmations
+                    with sub-3 second response times at ~$0.50/month operational cost.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">Terraform</span>
+                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">Python</span>
+                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">AWS Lambda</span>
+                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">DynamoDB</span>
+                    <span className="px-3 py-1 text-sm bg-gray-800 border border-gray-700 rounded-md">Claude API</span>
+                  </div>
+                </div>
+                <a
+                  href="https://github.com/iac23/travelease-contact"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 w-full px-4 py-2 bg-transparent hover:bg-gray-800 border border-gray-700 rounded-lg font-medium transition-colors"
